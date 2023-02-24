@@ -19,9 +19,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
         FormsModule,
         HttpModule
     ],
-    providers: [
-        ProductService
-    ],
+    providers: [ProductService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
